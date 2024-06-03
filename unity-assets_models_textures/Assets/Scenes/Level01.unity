@@ -1864,6 +1864,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1945,6 +1946,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 9, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8d4cab3d80d29f43a9f50d8ad842bc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 2070111710}
+  cameraSensitivity: 2
 --- !u!1 &1004076532
 GameObject:
   m_ObjectHideFlags: 0
@@ -3645,7 +3660,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  jumpForce: 10
+  jumpForce: 5
+--- !u!4 &2070111710 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4702444223299535765, guid: 24931edc0d9fa21448196a66048a0324, type: 3}
+  m_PrefabInstance: {fileID: 242470991094977172}
+  m_PrefabAsset: {fileID: 0}
 --- !u!54 &2070111711
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3656,7 +3676,7 @@ Rigidbody:
   serializedVersion: 4
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
