@@ -6682,6 +6682,10 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 36
       objectReference: {fileID: 0}
+    - target: {fileID: 405514206893103783, guid: c7c5518a660f43c47a12e97b83c0086d, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1070247485208640350, guid: c7c5518a660f43c47a12e97b83c0086d, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -6798,6 +6802,10 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 36
       objectReference: {fileID: 0}
+    - target: {fileID: 7013572383118147127, guid: c7c5518a660f43c47a12e97b83c0086d, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8154646834554155950, guid: c7c5518a660f43c47a12e97b83c0086d, type: 3}
       propertyPath: m_fontSize
       value: 36
@@ -6805,6 +6813,14 @@ PrefabInstance:
     - target: {fileID: 8154646834554155950, guid: c7c5518a660f43c47a12e97b83c0086d, type: 3}
       propertyPath: m_fontSizeBase
       value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 8154646834554155950, guid: c7c5518a660f43c47a12e97b83c0086d, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9142127844302844831, guid: c7c5518a660f43c47a12e97b83c0086d, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6923,5 +6939,5 @@ SceneRoots:
   - {fileID: 959784634}
   - {fileID: 1870389538}
   - {fileID: 7370040246667217900}
-  - {fileID: 1752179199}
   - {fileID: 862105331981883933}
+  - {fileID: 1752179199}
