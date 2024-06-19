@@ -6674,6 +6674,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 405514206893103783, guid: c7c5518a660f43c47a12e97b83c0086d, type: 3}
+      propertyPath: m_fontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 405514206893103783, guid: c7c5518a660f43c47a12e97b83c0086d, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 36
+      objectReference: {fileID: 0}
     - target: {fileID: 1070247485208640350, guid: c7c5518a660f43c47a12e97b83c0086d, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -6757,6 +6765,46 @@ PrefabInstance:
     - target: {fileID: 1372829962092945707, guid: c7c5518a660f43c47a12e97b83c0086d, type: 3}
       propertyPath: m_Name
       value: PauseCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372829962092945707, guid: c7c5518a660f43c47a12e97b83c0086d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3677721125023480242, guid: c7c5518a660f43c47a12e97b83c0086d, type: 3}
+      propertyPath: m_fontSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 3677721125023480242, guid: c7c5518a660f43c47a12e97b83c0086d, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 6064401100280420500, guid: c7c5518a660f43c47a12e97b83c0086d, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6064401100280420500, guid: c7c5518a660f43c47a12e97b83c0086d, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6064401100280420500, guid: c7c5518a660f43c47a12e97b83c0086d, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013572383118147127, guid: c7c5518a660f43c47a12e97b83c0086d, type: 3}
+      propertyPath: m_fontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013572383118147127, guid: c7c5518a660f43c47a12e97b83c0086d, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 8154646834554155950, guid: c7c5518a660f43c47a12e97b83c0086d, type: 3}
+      propertyPath: m_fontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 8154646834554155950, guid: c7c5518a660f43c47a12e97b83c0086d, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 36
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
