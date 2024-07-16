@@ -35,6 +35,7 @@ At the end of this Animation project, we will be at this stage in development: P
 - Mecanim and Mixamo in Unity
 
 ## Suggested:
+
 - Animation Properties
 - Animation Curves
 - Animation Events
@@ -66,9 +67,15 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 # Requirements
 ## General
-- A README.md file, at the root of the folder of the project
-- Use Unity’s default .gitignore in your holbertonschool-unity directory
-- Push the entire project folder unity-animation to your repo
-- All scenes and project assets (such as Scenes, Scripts, Materials, etc.) must be organized as stated in the tasks
-- Your scripts should include markup and notation to describe functionality, bugs, and help make the codebase easier to read and understand
-- Free or paid assets are not permitted for this project. Focus on creating your own scripts that interact with Unity’s existing character controller components.
+
+A README.md file, at the root of the folder of the project
+
+Use Unity’s default .gitignore in your holbertonschool-unity directory
+
+Push the entire project folder unity-animation to your repo
+
+All scenes and project assets (such as Scenes, Scripts, Materials, etc.) must be organized as stated in the tasks
+
+Your scripts should include markup and notation to describe functionality, bugs, and help make the codebase easier to read and understand
+
+Free or paid assets are not permitted for this project. Focus on creating your own scripts that interact with Unity’s existing character controller components.
