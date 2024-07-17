@@ -938,6 +938,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.7647883, y: 0.8837796, z: 0.77003735}
   m_Center: {x: 0, y: 0.4418898, z: 0}
+--- !u!1 &240164725 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1290504551619280377, guid: ff2f7f4f3734d62408028ac5e5c02eaf, type: 3}
+  m_PrefabInstance: {fileID: 7370040246667217900}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &251021226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2293,9 +2298,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cutsceneCameraAnimator: {fileID: 614835306}
-  mainCamera: {fileID: 963194227}
+  mainCamera: {fileID: 963194225}
   playerController: {fileID: 2070111706}
-  timerCanvas: {fileID: 774804479}
+  timerCanvas: {fileID: 240164725}
+  CutsceneCamera: {fileID: 614835305}
 --- !u!1001 &615012528
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2973,12 +2979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3fd1a30778e294db74aad4886f0bde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerScript: {fileID: 2070111715}
---- !u!223 &774804479 stripped
-Canvas:
-  m_CorrespondingSourceObject: {fileID: 9093415635008262685, guid: ff2f7f4f3734d62408028ac5e5c02eaf, type: 3}
-  m_PrefabInstance: {fileID: 7370040246667217900}
-  m_PrefabAsset: {fileID: 0}
+  timerScript: {fileID: 0}
 --- !u!1001 &804443443
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4080,7 +4081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8d4cab3d80d29f43a9f50d8ad842bc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 4764559983462764801}
+  playerTransform: {fileID: 0}
   cameraSensitivity: 2
   isInverted: 0
 --- !u!1001 &972175388
@@ -6564,17 +6565,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d191001fb2456c4459ebdff77ab71e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2070111715 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2483346872879055256, guid: b253d78967c41554d8cef36bfee533bb, type: 3}
-  m_PrefabInstance: {fileID: 8888966550818371049}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c443d531cf0a2a34d97c57376d402b8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2108211991
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6773,7 +6763,7 @@ PrefabInstance:
     - target: {fileID: 285150463325830722, guid: 4e23fc61c2d446c408c0105c74b018f3, type: 3}
       propertyPath: timer
       value: 
-      objectReference: {fileID: 2070111715}
+      objectReference: {fileID: 0}
     - target: {fileID: 285150463325830722, guid: 4e23fc61c2d446c408c0105c74b018f3, type: 3}
       propertyPath: pauseCanvas
       value: 
@@ -7080,11 +7070,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 116288e1ac17f62409c5501af11a95c9, type: 3}
---- !u!4 &4764559983462764801 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4922991127458053062, guid: b253d78967c41554d8cef36bfee533bb, type: 3}
-  m_PrefabInstance: {fileID: 8888966550818371049}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7370040246667217900
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7200,7 +7185,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 534555223097237030, guid: b253d78967c41554d8cef36bfee533bb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1
+      value: -1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398013305214378832, guid: b253d78967c41554d8cef36bfee533bb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2483346872879055256, guid: b253d78967c41554d8cef36bfee533bb, type: 3}
       propertyPath: timerText
@@ -7262,6 +7251,24 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 4ab71f420fbb4c2439123b4a57c6d14b, type: 2}
+    - target: {fileID: 5875847245474530396, guid: b253d78967c41554d8cef36bfee533bb, type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875847245474530396, guid: b253d78967c41554d8cef36bfee533bb, type: 3}
+      propertyPath: m_WarningMessage
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'Boy:Hips'\n\tTransform 'Boy:LeftArm'\n\tTransform
+        'Boy:RightHandRing1'\n\tTransform 'Boy:RightHandThumb1'\n\tTransform 'Boy:LeftHandRing2'\n\tTransform
+        'Boy:Head'\n\tTransform 'Boy:LeftHandPinky2'\n\tTransform 'Boy:RightHandIndex2'\n\tTransform
+        'Boy:RightArm'\n\tTransform 'Boy:RightUpLeg'\n\tand more ...\n\tFrom animation
+        clip 'Running'"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875847245474530396, guid: b253d78967c41554d8cef36bfee533bb, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5944059073364245255, guid: b253d78967c41554d8cef36bfee533bb, type: 3}
       propertyPath: m_Enabled
       value: 0
