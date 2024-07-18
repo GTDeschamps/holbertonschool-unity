@@ -7183,14 +7183,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 534555223097237030, guid: b253d78967c41554d8cef36bfee533bb, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 1398013305214378832, guid: b253d78967c41554d8cef36bfee533bb, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2483346872879055256, guid: b253d78967c41554d8cef36bfee533bb, type: 3}
       propertyPath: timerText
       value: 
@@ -7246,32 +7238,6 @@ PrefabInstance:
     - target: {fileID: 5827940906244839838, guid: b253d78967c41554d8cef36bfee533bb, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 5875847245474530396, guid: b253d78967c41554d8cef36bfee533bb, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 4ab71f420fbb4c2439123b4a57c6d14b, type: 2}
-    - target: {fileID: 5875847245474530396, guid: b253d78967c41554d8cef36bfee533bb, type: 3}
-      propertyPath: m_CullingMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5875847245474530396, guid: b253d78967c41554d8cef36bfee533bb, type: 3}
-      propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'Boy:Hips'\n\tTransform 'Boy:LeftArm'\n\tTransform
-        'Boy:RightHandRing1'\n\tTransform 'Boy:RightHandThumb1'\n\tTransform 'Boy:LeftHandRing2'\n\tTransform
-        'Boy:Head'\n\tTransform 'Boy:LeftHandPinky2'\n\tTransform 'Boy:RightHandIndex2'\n\tTransform
-        'Boy:RightArm'\n\tTransform 'Boy:RightUpLeg'\n\tand more ...\n\tFrom animation
-        clip 'Running'"
-      objectReference: {fileID: 0}
-    - target: {fileID: 5875847245474530396, guid: b253d78967c41554d8cef36bfee533bb, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5944059073364245255, guid: b253d78967c41554d8cef36bfee533bb, type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
