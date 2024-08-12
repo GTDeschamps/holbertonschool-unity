@@ -5678,7 +5678,7 @@ PrefabInstance:
     - target: {fileID: 285150463325830722, guid: 4e23fc61c2d446c408c0105c74b018f3, type: 3}
       propertyPath: Pause_State
       value: 
-      objectReference: {fileID: -4908987718245071542, guid: 78e00608e52de3948af559fb9fff3bd8, type: 2}
+      objectReference: {fileID: -5550787923418864777, guid: 634b4dc46dbcc094683dfcfb6367f7b3, type: 2}
     - target: {fileID: 285150463325830722, guid: 4e23fc61c2d446c408c0105c74b018f3, type: 3}
       propertyPath: pauseCanvas
       value: 
@@ -5686,7 +5686,7 @@ PrefabInstance:
     - target: {fileID: 285150463325830722, guid: 4e23fc61c2d446c408c0105c74b018f3, type: 3}
       propertyPath: Normal_State
       value: 
-      objectReference: {fileID: 24500006, guid: 78e00608e52de3948af559fb9fff3bd8, type: 2}
+      objectReference: {fileID: 24500006, guid: 634b4dc46dbcc094683dfcfb6367f7b3, type: 2}
     - target: {fileID: 4170632101398834420, guid: 4e23fc61c2d446c408c0105c74b018f3, type: 3}
       propertyPath: menuButton
       value: 
